@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout - Semantic Tags</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body{
+            /* background-color: whitesmoke; */
+        }
+        *{
+            color: rgba(118, 21, 21, 0.3);
+        }
+        .card{
+            display: flex;
+            /* make content inside container to become in a row */
+            width: 80vw;
+            margin: auto; 
+            /* margin: auto to make block element to center */
+            background-color: white;
+            /* margin-top: 10px;
+            margin-bottom: 10px; */
+        }
+        .desc{
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header class="promotion">
+        <a href="#">
+            <i class="fa-solid fa-house"></i>
+        </a>
+        <a href="#">
+            <i class="fa-solid fa-person-rifle"></i>
+        </a>
+        <a href="#">
+            <i class="fa-solid fa-car"></i>
+        </a>
+    </header>
+    <main>
+        <section class="popular-product">
+            <h1>Popular Products</h1>
+            <div class="card">
+                <div class="desc">
+                    <h2>Data Analytics</h2>
+                    <article>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae consequuntur expedita odio eius, maxime deserunt aut nisi fugiat dignissimos ex asperiores itaque. Vel facilis molestiae delectus odit incidunt placeat velit.</p>
+                    </article>
+                </div>
+                <div class="photo">
+                    <img src="../images/data.png" alt="data">
+                </div>
+            </div>
+            <div class="card">
+                <div class="photo">
+                    <img src="../images/credit.png" alt="data">
+                </div>
+                <div class="desc">
+                    <h2>Credit Cards</h2>
+                    <article>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae consequuntur expedita odio eius, maxime deserunt aut nisi fugiat dignissimos ex asperiores itaque. Vel facilis molestiae delectus odit incidunt placeat velit.</p>
+                    </article>
+                </div>
+                
+            </div>
+            <div class="card">
+                <div class="desc">
+                    <h2>Data Analytics</h2>
+                    <article>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae consequuntur expedita odio eius, maxime deserunt aut nisi fugiat dignissimos ex asperiores itaque. Vel facilis molestiae delectus odit incidunt placeat velit.</p>
+                    </article>
+                </div>
+                <div class="photo">
+                    <img src="../images/teacher.png" alt="data">
+                </div>
+            </div>
+        </section>
+        <section class="most-view-product">
+            <h1>Most Viewed Products</h1>
+        </section>
+    </main>
+    <footer>
+        <h1>Footer Here</h1>
+        <section>
+            a
+        </section>
+        <section>
+            b
+        </section>
+        <section>
+            c
+        </section>
+    </footer>
+</body>
+</html>

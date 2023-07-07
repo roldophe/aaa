@@ -1,0 +1,38 @@
+/* External Style Sheet */
+/* 
+selector{
+    property: value;
+} 
+*/
+/* universal */
+*{
+    color: red;
+}
+/* elementname */
+h1{
+    color: darkblue;
+    text-align: center;
+}
+/* .classname */
+.top-heading, h2{
+    color: orange !important;
+    font-size: 50px;
+}
+/* id */
+#heading{
+    color: aqua;
+}
+/* apply only h2 inside section */
+section h2{
+    text-transform: uppercase;
+}
+/* Pseudo class */
+p::first-letter{
+    font-size: 40px;
+}
+p:first-child{
+    background-color: yellow;
+}
+p:hover{
+    background-color: rebeccapurple;
+}

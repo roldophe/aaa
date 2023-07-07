@@ -1,0 +1,41 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 100px);
+}
+.item{
+    background: purple;
+    margin: 10px;
+    color: white;
+    padding: 20px;
+}
+
+/* setup box position */
+.position{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.box{
+    color: white;
+    padding: 50px;
+}
+.a{
+    grid-column: 1 / span 2;
+    background: lightcoral;
+}
+.b{
+    grid-column: 3;
+    grid-row: 1 / span 2;
+    background: peachpuff;
+}
+.c{
+    grid-column: 2;
+    grid-row: 2;
+    background: paleturquoise;
+}
+.d{
+    grid-column: 1;
+    grid-row: 2;
+    background: plum;
+}

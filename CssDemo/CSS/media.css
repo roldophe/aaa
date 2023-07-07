@@ -1,0 +1,29 @@
+.container{
+    width: 80vw;
+    height: 80vw;
+    background-color: lightblue;
+    margin: auto;
+}
+.item{
+    width: 300px;
+}
+.item img{
+    width: 90vw;
+}
+/* will be effect when screen width: up 520px */
+@media screen and (max-width:520px){
+    .container{
+        background: #596769;
+        width: 100vw;
+    }
+}
+@media screen and (min-width:521px){
+    .container{
+        background:blue;
+    }
+}
+@media screen and (min-width:900px) {
+    .container{
+        background: #c11f1f;
+    }
+}

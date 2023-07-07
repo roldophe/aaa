@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <script src="https://kit.fontawesome.com/9dbf4bca99.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Moul&family=Moulpali&display=swap" rel="stylesheet">   
+    <style>
+        table,th,td{
+            border-width: 1px;
+            border-style: solid;
+            border-color:green;
+            border-collapse: collapse;
+        }
+        table{
+            width: 80vw;
+            margin: auto; /* If you had specific width, Magin:auto will work */
+        }
+        h1{
+            text-align: center;
+        }
+        td{
+            width: 100px;
+            height: 50px;
+            text-align: center;
+            color: aliceblue;
+            /* background-image: url("../image/Bird.jpg"); 
+            background-size: cover;*/
+        }
+        th{
+            height: 30px;
+            font-family: 'Moulpali', cursive;
+        }
+        
+        .even{
+            background-color: gray;
+            
+        }
+        
+         /* psuedo-class */
+         tr:nth-child(odd){
+            background-color: rgb(121, 88, 88);
+         }
+         
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./index.html">
+                        <i class="fa-solid fa-house"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="./index.html">
+                        <i class="fa-solid fa-house"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="./index.html">
+                        <i class="fa-solid fa-house"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="./index.html">
+                        <i class="fa-solid fa-house"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="./index.html">
+                        <i class="fa-solid fa-house"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Lists, threre are 3 lists</h1>
+            <h2>Type of coffee</h2>
+            <ol>
+                <li>Ice latte</li>
+                <li>Hot Latte</li>
+                <li>Americano</li>
+            </ol>
+            <h2>Under list</h2>
+            <ul>
+                <li>Water</li>
+                <li>coffee</li>
+                <li>Beer</li>
+            </ul>
+            <h2>Definition List</h2>
+            <dl>
+                <dt>Angkor</dt>
+                <dd>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, veniam reiciendis! Fugit,
+                     libero nisi error earum sint atque provident repellat quaerat! Aut voluptate cum sit illo doloribus a, ab vitae?
+                </dd>
+            </dl>
+        </section>
+        <section class="user-data">
+            
+            <table>
+                <!-- Table which has 10rows and 8 columns -->
+                <tr>
+                    <th colspan="8">តារាងទិន្នន័យអ្នកប្រើប្រាស់គេហទំព័រ​ អន្តរជាតិ</th>
+                </tr>
+                <tr>
+                    <th> ID </th>
+                    <th> Full Name </th>
+                    <th> Gender </th>
+                    <th> Age </th>
+                    <th> University </th>
+                    <th> Skills </th>
+                    <th> Position </th>
+                    <th> Status </th>
+                </tr>
+                <tr class="odd">
+                    <td>001</td>
+                    <td>RADOM</td>
+                    <td>Male</td>
+                    <td>21</td>
+                    <td>RUPP</td>
+                    <td>Spring</td>
+                    <td>ADMIN</td>
+                    <td>Active</td>
+                </tr>
+
+                <tr class="even">
+                    <td>002</td>
+                    <td>Enzo</td>
+                    <td>Male</td>
+                    <td>21</td>
+                    <td>RUPP</td>
+                    <td>Spring</td>
+                    <td>ADMIN</td>
+                    <td>Active</td>
+                </tr>
+                <tr class="odd">
+                    <td>003</td>
+                    <td>KITO</td>
+                    <td>Male</td>
+                    <td>25</td>
+                    <td>RUPP</td>
+                    <td>Spring</td>
+                    <td>ADMIN</td>
+                    <td>Active</td>
+                </tr>
+                <tr class="even">
+                    <td>004</td>
+                    <td>RADOM</td>
+                    <td>MALE</td>
+                    <td>21</td>
+                    <td>RUPP</td>
+                    <td>Spring</td>
+                    <td>ADMIN</td>
+                    <td>Active</td>
+                </tr>
+                <tr class="odd">
+                    <td>005</td>
+                    <td>LUOIZ</td>
+                    <td>Male</td>
+                    <td>21</td>
+                    <td>RUPP</td>
+                    <td>Spring</td>
+                    <td>ADMIN</td>
+                    <td>Active</td>
+                </tr>
+                <tr class="even">
+                    <td>006</td>
+                    <td>STEVEN</td>
+                    <td>Female</td>
+                    <td>21</td>
+                    <td>RUPP</td>
+                    <td>Spring</td>
+                    <td>ADMIN</td>
+                    <td>Active</td>
+                </tr>
+                <tr class="odd">
+                    <td>007</td>
+                    <td>ROLDOPHE</td>
+                    <td>Male</td>
+                    <td>21</td>
+                    <td>RUPP</td>
+                    <td>Spring</td>
+                    <td>ADMIN</td>
+                    <td>Active</td>
+                </tr>
+                <tr class="even">
+                    <td>008</td>
+                    <td>MARATHON</td>
+                    <td>Female</td>
+                    <td>21</td>
+                    <td>RUPP</td>
+                    <td>Spring</td>
+                    <td>ADMIN</td>
+                    <td>Active</td>
+                </tr>
+                <tr class="odd">
+                    <td>009</td>
+                    <td>CHEALING</td>
+                    <td>Female</td>
+                    <td>21</td>
+                    <td>RUPP</td>
+                    <td>Spring</td>
+                    <td>ADMIN</td>
+                    <td>Active</td>
+                </tr>
+                <tr class="even">
+                    <td>010</td>
+                    <td>SEAKLY  </td>
+                    <td>Female</td>
+                    <td>21</td>
+                    <td>RUPP</td>
+                    <td>Spring</td>
+                    <td>ADMIN</td>
+                    <td>Active</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

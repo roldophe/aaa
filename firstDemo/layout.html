@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <script src="https://kit.fontawesome.com/9dbf4bca99.js" crossorigin="anonymous"></script>
+
+    <style>
+        body{
+             background-color: whitesmoke; 
+        }
+        .card{
+            display: flex;
+            /* make content inside container to become in a row */
+            width: 80vw;  /* vw: view port width */
+            margin: auto; 
+            /* margin:  */
+        }
+           
+        .card1{
+            display: flex;
+            width: 80vw;
+            margin: auto;
+        }
+        i{
+            font-size: 150px;
+        }
+        .card2{
+            display: flex;
+            width: 80vw;
+            margin: auto;
+        }
+        .card3{
+            display: flex;
+            width: 80vw;
+            margin: auto;
+        }
+
+    </style>
+
+
+</head>
+<body>
+    <!-- In body :
+         1. Header
+         2. main(body)
+         3. Footer
+     -->
+
+     <!-- header -->
+    <header class="promotion">
+            <a href="#">
+                <i class="fa-solid fa-house-heart"></i>
+            </a>
+            <a href="#">
+
+            </a>
+            <a href="#">
+
+            </a>
+    </header>
+    <!-- Body -->
+    <main>
+        <section class="popular-product">
+            <h1>Popular Product</h1>
+            <div class="card">
+                <div>
+                    <h2>Data Analytics</h2>
+                    <article>
+                        <p> 
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                             Amet dolorem praesentium omnis? Vel vitae amet repudiandae modi molestiae fugiat ab deserunt, voluptatum corrupti eveniet? Recusandae natus veritatis numquam harum beatae!
+                        </p>
+                    </article>
+                </div>
+                <div class="photo">
+                    <img src="./../image/Bird.jpg" width="200">
+                </div>
+            </div>
+            <hr>
+            <div class="card1">
+                <div>
+                    <h2>BlockChain</h2>
+                    <article>
+                        <p>
+                            A blockchain is a distributed ledger with growing lists of records (blocks) 
+                            that are securely linked together via cryptographic hashes. 
+                            Each block contains a cryptographic hash of the previous block, a timestamp,
+                             and transaction data (generally represented as a Merkle tree, where data nodes are represented by leaves).
+                        </p>
+                    </article>
+
+                </div>
+                <div>
+                    <i class="fa-brands fa-hive"></i>
+                </div>
+
+            </div>
+            <hr>
+            <div class="card3">
+                <div>
+                    <h2>Credit card</h2>
+                    <article>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                             Omnis delectus labore dolorum temporibus voluptas expedita reiciendis aperiam quis 
+                             recusandae est perferendis voluptatum, saepe cum asperiores, inventore nam consectetur voluptatibus in.
+                        </p>
+                    </article>
+
+                </div>
+                <div class="credit">
+                    <img src="./../image/credit.png" alt="card">
+                </div>
+
+            </div>
+            <hr>
+        </section>
+        <section class="most-view-product">
+            
+        </section>
+    </main>
+
+    <!-- Footer  -->
+    <footer>
+
+        <h1>Foter Here</h1>
+        <section>
+
+        </section>
+        <section>
+
+        </section>
+        <section>
+
+        </section>
+    </footer>
+</body>
+</html>

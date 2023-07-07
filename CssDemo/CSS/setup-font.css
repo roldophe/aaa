@@ -1,0 +1,34 @@
+/* configuration local fonts */
+@font-face {
+    font-family: "KantumruyPro-Thin";
+    src: url("./../fonts/KantumruyPro-Thin.ttf");
+}
+@font-face {
+    font-family: "kantumruyPro-Bold";
+    src: url("./../fonts/KantumruyPro-Bold.ttf");
+}
+@font-face {
+    font-family: "kantumruyPro-BoldItalic";
+    src: url("./../fonts/KantumruyPro-BoldItalic.ttf");
+}
+p{
+    font-family: "KantumruyPro-BoldItalic",Arial, Helvetica, sans-serif;
+}
+
+h2{
+    text-align: center;
+}
+.service{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+svg{
+    width: 50px;
+    color: blue;
+    display: flex;
+    margin: auto;
+}
+.service-item{
+    width: 250px;
+}

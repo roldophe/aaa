@@ -1,0 +1,43 @@
+/* External stylesheet */
+
+/* 
+syntax:
+selector{
+    property:value;
+} 
+*/
+/* universal */
+* {
+    color: rgb(56, 38, 38);
+}
+
+/* elementname */
+h1 {
+    color: darkblue;
+}
+
+/* .classname */
+.top-heading,h2 {
+    color: orange;
+}
+
+/* id */
+#heading {
+    color: aqua !important;
+    /* !important: is the king class */
+}
+/* apply only h2 inside section */
+section h2{
+    text-transform: uppercase;
+}
+p:first-child{
+    background-color: yellowgreen;
+}
+/* Spuedo */
+p::first-letter{
+    
+    font-size: 40px;
+}
+p:hover{
+    background-color: rebeccapurple;
+}

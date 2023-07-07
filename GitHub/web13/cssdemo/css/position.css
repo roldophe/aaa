@@ -1,0 +1,41 @@
+.container{
+    width: 80vw;
+    height: 200vh;
+    background: lavenderblush;
+    position: relative;
+}
+.box{
+    width: 200px;
+    height: 200px;
+}
+.lightblue{
+    background: lightblue;
+}
+.purple{
+    background: purple;
+    /* The box's position is calculated according to the normal flow */
+    position: relative;
+    left: 200px;
+    top: 0;
+}
+.orange{
+    background: orange;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.fixed{
+    width: 400px;
+    /* background: black; */
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+.fixed img{
+    width: 70%;
+}
+.sticky{
+    background: gold;
+    position: sticky;
+    top: 0;
+}

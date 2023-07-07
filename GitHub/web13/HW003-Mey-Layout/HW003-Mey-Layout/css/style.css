@@ -1,0 +1,112 @@
+*{
+    font-family: 'Moulpali', cursive;
+}
+header{
+    background-color: purple;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    display: inline-block;
+    color: white;
+    margin: 20px;
+}
+ul{
+    margin-right: 20px;
+}
+.container{
+    width: 100vw;
+    background-color: #fff;
+}
+.introduction{
+    display: flex;
+    width: 90vw;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    background-color: white;
+}
+.description{
+    width: 50vw;
+}
+.description h1{
+    text-align: left;
+}
+.feature-demo{
+    width: 600px;
+}
+.feature-demo img{
+    width: 100%;
+}
+button{
+    background-color: darkblue;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+}
+.partner{
+    background-color: purple;
+    color: white;
+    padding-top: 20px;
+}
+.company-logo{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.logo{
+    max-width: 200px;
+}
+.logo img{
+    width: 100%;
+}
+.popular-course{
+    margin-top: 100px;
+}
+body{
+    background-color: whitesmoke;
+}
+.course{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.item{
+    width: 300px;
+    background-color: white;
+    margin: 20px;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+.item img{
+    width: 100%;
+}
+.footer-image{
+    width: 100vw;
+}
+.footer-image img{
+    width: 100%;
+}
+svg{
+    color: purple;
+    width: 100px;
+}
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.service-items{
+    width: 300px;
+}
+.service-items p, .service-items h2{
+    text-align: center;
+}

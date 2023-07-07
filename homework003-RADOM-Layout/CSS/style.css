@@ -1,0 +1,154 @@
+* {
+    font-family: 'MoulPali', cursive;
+}
+
+header {
+    background-color: purple;
+    width: 100vw;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    display: inline-block;
+    color: white;
+    margin: 20px;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.introduct {
+    display: flex;
+    width: 70vw;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.feature-demo {
+    max-width: 320px;   
+}
+
+.feature-demo img {
+    width: 100%;
+    border-radius: 20px;
+}
+button {
+    background-color: darkblue;
+    color: aliceblue;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    color: white;
+}
+.partner {
+    background-color: purple;
+    margin-top: 50px;
+    width: 100vw;
+}
+.partner-txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.partner-txt h3{
+    color: white;
+}
+.company-logo {
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.company-logo img {
+    max-width: 70px;
+}
+.popular-course {
+    margin-top: 50px;
+}
+.course {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90vw;
+}
+
+.item {
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.item img {
+    width: 70vw;
+    padding: 20px;
+    width: 150px;
+}
+.start-footer{
+    display: block;
+    background-color: purple;
+    width: 100vw;
+}
+.all-info{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.service{
+    display: flex;
+    justify-content: center;
+    width: 70vw;
+    margin: auto;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.service-item{
+    margin: 20px;
+    border-radius: 20px;
+    color: blueviolet;
+}
+.service-item h2{
+    text-align: center;
+    font-size: 20px;
+}
+.service-item svg{
+    margin: auto;
+    display: block;
+    width: 100px;
+}
+.school-qoute{
+    text-align: center;
+}
+.school-qoute img{
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+}
+.text-p{
+    text-align: center;
+}
+footer a{
+    color: black;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.text-list{
+   list-style: none;
+}

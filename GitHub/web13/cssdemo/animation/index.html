@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animation</title>
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <style>
+        @keyframes up-down {
+            from{
+                transform: translateY(20px);
+            }
+            to{
+                transform: translateY(-20px);
+            }
+        }
+        @keyframes rotate {
+            0%{
+                transform: rotate(0deg);
+            }
+            50%{
+                transform: rotate(20deg);
+                opacity: 0.4;
+            }
+            100%{
+                transform: rotate(50deg);
+                opacity: 0.8;
+            }
+        }
+        .container{
+            display: flex;
+            animation: up-down 2s infinite alternate;
+        }
+        .photo{
+            animation: rotate 2s infinite alternate;
+        }
+    </style>
+    
+</head>
+<body>
+    <!-- <div class="animate__animated animate__rubberBand">
+        <img src="https://api.istad.co/media/image/3d7beaad-309a-4f2f-91e2-b3be705ef3f6.png" alt="">
+    </div> -->
+    <main>
+        <div class="container">
+            <div class="description">
+                <h1>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum deserunt veritatis possimus, pariatur nostrum cupiditate eaque quod hic doloribus? Voluptas veniam corporis praesentium amet quia recusandae, porro a quam quas!
+                </h1>
+            </div>
+            <div class="photo">
+                <img src="https://api.istad.co/media/image/3d7beaad-309a-4f2f-91e2-b3be705ef3f6.png" alt="">
+            </div>
+        </div>
+        <section>
+            <div class="cycling">
+                <img src="./../images/cycling.gif" alt="">
+            </div>
+            <div class="cycling">
+                <img src="./../images/athletics.gif" alt="">
+            </div>
+        </section>
+    </main>
+</body>
+</html>

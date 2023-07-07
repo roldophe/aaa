@@ -1,0 +1,50 @@
+.contianer {
+    width: 80vw;
+    height: 2000px;
+    position: relative;
+    background-color: bisque;
+
+    .box {
+        width: 100px;
+        height: 100px;
+
+    }
+
+    .lightblue {
+        background-color: lightblue;
+        position: absolute;
+
+    }
+
+    .purple {
+        background-color: purple;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .orange {
+        background-color: orange;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    .blue {
+        background-color: blue;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    .fixed{
+        position: fixed;
+        background-color: red;
+        bottom: 0;
+        right: 0;
+    }
+    .stick{
+        position:sticky;
+        background-color: #09793b;
+        left: 500px;
+    }
+}

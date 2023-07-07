@@ -1,0 +1,32 @@
+.container{
+    width: 80vw;
+    height: 100vh;
+    background-color: lightblue;
+    margin: auto;
+}
+.item{
+    width: 400px;
+}
+.item img{
+    width: 90%;
+}
+/* will be effect when screen width: up to 520px */
+@media screen and (max-width: 520px) {
+    .container{
+        background: plum;
+        width: 100vw;
+    }
+    p{
+        font-size: 18px;
+    }
+}
+@media screen and (min-width: 521px) {
+    .container{
+        background: lightcoral;
+    }
+}
+@media screen and (min-width: 900px) {
+    .container{
+        background: rgb(8, 8, 110);
+    }
+}
