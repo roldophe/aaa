@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    
+    <script>
+        let fullname = "khoem"
+        let greetingMessage = "Welcome, " + fullname
+        //select h1 element
+        let heading = document.getElementById("headingOne")
+        console.log(heading)
+        //replace new content of h1 element
+        //funtion vs method
+        /*
+            function:
+                outside class
+            method:
+                inside class
+        */
+        //2. Number( Interger, floating)
+        let numberOfApples =10;
+        let duration =1.5;
+        let firstname ="radom"
+        console.log(typeof(numberOfApples))
+        console.log(typeof(duration))
+        console.log(typeof(firstname))
+
+        console.log('amount of apple divide by 0: ',numberOfApples/0)
+        console.log('negative number divide by 0:',-numberOfApples/0)
+        console.log('number divide by string: ',numberOfApples/firstname)
+
+        //3. Boolean
+        let isTooYoung =true
+        let isIllegal = new Boolean(3)
+        let isAuthorized = false
+        console.log(isIllegal)
+        console.log(isTooYoung)
+
+        //4. undefined
+        let a;
+        console.log(a)
+
+        //5. null
+        let b=null
+        console.log(b)
+
+        //6. object
+        let student={
+            firstname:"Radom",
+            lastName:"khoem",
+            age:22
+        }
+        console.log(student.firstname)
+        console.log(student.lastName)
+        console.log(student.age)
+    </script>
+</body>
+
+</html>
